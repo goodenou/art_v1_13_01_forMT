@@ -1,0 +1,1 @@
+#error Obsolete class: use art/Framework/IO/Sources/SourceHelper instead: ack --cpp -l PrincipalMaker | xargs perl -wapi\~ -e 's&art/Framework/Core/PrincipalMaker&art/Framework/IO/Sources/SourceHelper&; s&PrincipalMaker&SourceHelper&g'
